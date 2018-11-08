@@ -12,7 +12,7 @@ You will be able to:
 * Understand and explain Goodhart's Law
 * Identify real-world examples of Goodhart's Law in action
 
-### What is Goodhart's Law?
+## What is Goodhart's Law?
 
 [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law) is an observation made by the British Economist Charles Goodhart in 1975.  Charles Goodhart famously said:
 
@@ -24,13 +24,13 @@ In plain English, this translates to:
 > "Any measure which becomes a target ceases to be an effective measure!"
 
 
-#### So What Does That Mean?
+### So What Does That Mean?
 
 Goodhart's Law succintly explains a cardinal sin that many data scientists, project managers, and CEOs make all the time without realizing it--they make policy or set goals based on statistical metrics without considering the unintended consequences and effects these policies might have!  
 
 <img src='goodhart.jpg' height=50% width=50%>
 
-### Example 1: Cobra Skins
+## Example 1: Cobra Skins
 
 <img src='cobra.jpg'>
 
@@ -38,24 +38,24 @@ The [Cobra Effect](https://en.wikipedia.org/wiki/Cobra_effect) refers to an anec
 
 (Fun fact: The French military made the same mistake when Hanoi, Vietnam was under their colonial rule with a rat bounty, and there is solid evidence to prove that this actually happened!)
 
-#### The Problem With Proxy Metrics
+### The Problem With Proxy Metrics
 
 The first mistake by this British Commander was using a **_proxy metric_** in the form of "cobra skins collected".  He mistakenly assumed that there was an inverse relationship between the number of skins turned in for a bounty and the number of wild cobras in the city of Delhi! Although this may have been the case at first, as hunting cobras was pretty much the only way to obtain skins to turn in for the bounty, he failed to realize that there were other possible sources for cobra skins that he hadn't accounted for.  He wanted to reduce one metric, _Cobra Population_, but he wasn't actually tracking that metric--he was tracking a proxy for that metric which he assumed he could use to gauge what was happening to his target metric.  The system he implemented had no way of determining if the cobra skins turned in for bounties were skins from cobras on the streets of Delhi--with no way to tell, he had no way of knowing as his proxy metric became less and less relevant. 
 
 
-#### Policies Can Change Things You Didn't Plan For
+### Policies Can Change Things You Didn't Plan For
 
 This leads to his other mistake--he failed to account for how his policies might change things. Policies do not happen in a vacuum. They have a tendency to change things in unexpected ways, if not crafted thoughtfully and carefully! At first glance, introducing a monetary incentive for cobra skins seems like a good way to reduce the cobra population.  However, he failed to account for the way this new incentive might change people's behaviors.  By making cobra skins highly valuable, he inadvertently caused people to realize that breeding cobras was much safer, easier, and more lucrative than hunting them.  Although his policy may have caused the change he wanted in the beginning, he had no way of knowing what other sorts of behaviors this new policy might create or encourage. 
 
 
-### Example 2: Standardized Testing in US Schools
+## Example 2: Standardized Testing in US Schools
 
 <img src='test.jpg'>
 
 A more depressing real-world example of Goodhart's Law in action is the prevalence of standardized testing in the American public school system. These tests were originally designed as a way to measure both individual student performance and overall teacher and school effectiveness.  However, school funding is tied directly to test scores.  This incentivizes schools to "teach to the test", spending a disproprionate amount of class time each year focusing on test preparation. By having incentivizing schools to focus heavily on preparing students for these tests, the system has ensured that the test results are no longer accurate metrics of student learning--just student ability to cram for that specific sort of test, which isn't very reflective of real-world skills or needs. Furthermore, many teachers point out that the amount of time spent preparing for the tests means that there is less time for students to actually learn! In this case, policy makers started out with a harmless, positive intention--measure student and school performance--but failing to account for Goodhart's Law by making schools aim for higher test scores has invalidated the usefulness of these test scores while actually reducing the overall learning that these tests were designed to measure!
 
 
-### Why Does This Matter For Data Scientists?
+## Why Does This Matter For Data Scientists?
 
 Goodhart's Law is something that matters much to Data Scientists because it is our findings and experiments that often drive the policies and decisions made by a company.  Data Science is complex, and often, project managers, CEOs, and other decision makers don't want to know about experimental methodologies or confidence intervals--they just want to know what the best decision they can make is, based on what the data says! It's quite common for decision makers to not realize that setting a target for one metric can negatively affect other metrics in ways that aren't immediately obvious--for instance, pushing employees at a call center to reduce call times could possibly reduce customer satisfaction, because of employees hustling to get off the phone based on the shorter call time "target" handed down from management.  
 
