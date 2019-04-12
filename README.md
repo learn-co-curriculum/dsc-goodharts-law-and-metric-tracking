@@ -28,11 +28,11 @@ In plain English, this translates to:
 
 Goodhart's Law succintly explains a cardinal sin that many data scientists, project managers, and CEOs make all the time without realizing it--they make policy or set goals based on statistical metrics without considering the unintended consequences and effects these policies might have!  
 
-<img src='goodhart.jpg' height=50% width=50%>
+<img src='images/goodhart.jpg' height=50% width=50%>
 
 ## Example 1: Cobra Skins
 
-<img src='cobra.jpg'>
+<img src='images/cobra.jpg'>
 
 The [Cobra Effect](https://en.wikipedia.org/wiki/Cobra_effect) refers to an anecdote that demonstates an example of Goodhart's Law in effect during the time of British Rule of Colonial India.  As the story goes, a high-ranking officer in the British military was concerned about the number of highly venomous cobras that could be found in the Delhi. He had the bright idea of offering a bounty for every cobra skin brought to him! Initially, this seemed to work--people hunted cobras, sold the skins to the British government for their bounty, and the cobra population dipped slightly in the city.  However, this soon backfired spectacularly, when citizens started breeding cobras! As a result, the cobra population stopped declining, and even repopulated a bit.  After a while, the officer caught onto the breeding, as he realized they were paying out many bounties but the cobra problem in the city was still prevalent as ever.  After realizing this, he canceled the bounty.  Ironically, this meant that all the cobra breeders now had no reason to keep the cobras they were breeding, so they dumped them in the street--causing the city to have even more cobras than before the bounty program had been implemented in the first place!
 
@@ -50,7 +50,7 @@ This leads to his other mistake--he failed to account for how his policies might
 
 ## Example 2: Standardized Testing in US Schools
 
-<img src='test.jpg'>
+<img src='images/test.jpg'>
 
 A more depressing real-world example of Goodhart's Law in action is the prevalence of standardized testing in the American public school system. These tests were originally designed as a way to measure both individual student performance and overall teacher and school effectiveness.  However, school funding is tied directly to test scores.  This incentivizes schools to "teach to the test", spending a disproportionate amount of class time each year focusing on test preparation. By having incentives for schools to focus heavily on preparing students for these tests, the system has created ripple effects including reorientating student's focus on preparing for tests rather then other other learning goals that might be more characteristic of real world applications such as project orientated tasks.  In this case, policy makers started out with a harmless, positive intention--measure student and school performance--but failing to account for Goodhart's Law and offering strong incentives in relation to these metrics has degraded the usefulness of these test scores by altering behaviors.
 
