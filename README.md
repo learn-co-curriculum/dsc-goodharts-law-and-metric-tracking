@@ -30,7 +30,7 @@ Goodhart's Law succintly explains a cardinal sin that many data scientists, proj
 
 <img src='images/goodhart.jpg' height=50% width=50%>
 
-Image from: [Sketchlantations](https://www.sketchplanations.com/post/167369765942/goodharts-law-when-a-measure-becomes-a-target)
+Image from: [Sketchplantations](https://www.sketchplanations.com/post/167369765942/goodharts-law-when-a-measure-becomes-a-target)
 
 ## Example 1: Cobra Skins
 
