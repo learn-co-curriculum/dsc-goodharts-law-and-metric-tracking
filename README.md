@@ -9,7 +9,7 @@ In this lesson, you'll learn about **_Goodhart's law_** and why you should be ca
 
 You will be able to:
 
-* Define Goodhart's law and it's relationship to hypothesis testing 
+* Define Goodhart's law and its relationship to hypothesis testing 
 * Identify real-world examples of Goodhart's law in action 
 
 ## What is Goodhart's law?
