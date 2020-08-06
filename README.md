@@ -9,8 +9,8 @@ In this lesson, you'll learn about **_Goodhart's law_** and why you should be ca
 
 You will be able to:
 
-* Define Goodhart's law and its relationship to hypothesis testing 
-* Identify real-world examples of Goodhart's law in action 
+- Define Goodhart's law and its relationship to hypothesis testing 
+- Identify real-world examples of Goodhart's law in action 
 
 ## What is Goodhart's law?
 
@@ -18,23 +18,21 @@ You will be able to:
 
 > "Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes."  -- Charles Goodhart
 
-
 In plain English, this translates to:
 
 > "Any measure which becomes a target ceases to be an effective measure!"
-
 
 ### So what does that mean?
 
 Goodhart's law succinctly explains a cardinal sin that many data scientists, project managers, and CEOs make all the time without realizing it -- they make policy or set goals based on statistical metrics without considering the unintended consequences and effects these policies might have!  
 
-<img src='images/goodhart.jpg' height=50% width=50%>
+<img src="images/goodhart.jpg" width="500">
 
 Image from: [Sketchplantations](https://www.sketchplanations.com/post/167369765942/goodharts-law-when-a-measure-becomes-a-target)
 
 ## Example 1: Cobra skins
 
-<img src='images/new_cobra.png' width="300">
+<img src="images/new_cobra.png" width="300">
 
 The [Cobra effect](https://en.wikipedia.org/wiki/Cobra_effect) refers to an anecdote that demonstrates an example of Goodhart's law in effect during the time of British rule of colonial India.  As the story goes, a high-ranking officer in the British military was concerned about the number of highly venomous cobras that could be found in Delhi. He had the bright idea of offering a bounty for every cobra skin brought to him! Initially, this seemed to work -- people hunted cobras, sold the skins to the British government for their bounty, and the cobra population dipped slightly in the city. However, this soon backfired spectacularly, when citizens started breeding cobras! As a result, the cobra population stopped declining and even repopulated a bit. After a while, the officer caught onto the breeding, as he realized they were paying out many bounties but the cobra problem in the city was still prevalent as ever. After realizing this, he canceled the bounty. Ironically, this meant that all the cobra breeders now had no reason to keep the cobras they were breeding, so they dumped them in the street -- causing the city to have even more cobras than before the bounty program had been implemented in the first place!
 
@@ -44,18 +42,15 @@ The [Cobra effect](https://en.wikipedia.org/wiki/Cobra_effect) refers to an anec
 
 The first mistake by this British commander was using a **_proxy metric_** in the form of "cobra skins collected".  He mistakenly assumed that there was an inverse relationship between the number of skins turned in for a bounty and the number of wild cobras in the city of Delhi! Although this may have been the case at first, as hunting cobras was pretty much the only way to obtain skins to turn in for the bounty, he failed to realize that there were other possible sources for cobra skins that he hadn't accounted for. He wanted to reduce one metric, _Cobra population_, but he wasn't actually tracking that metric -- he was tracking a proxy for that metric which he assumed he could use to gauge what was happening to his target metric.  The system he implemented had no way of determining if the cobra skins turned in for bounties were skins from cobras on the streets of Delhi -- with no way to tell, he had no way of knowing as his proxy metric became less and less relevant. 
 
-
 ### Policies can change things you didn't plan for
 
 This leads to his other mistake -- he failed to account for how his policies might change things. Policies do not happen in a vacuum. They have a tendency to change things in unexpected ways, if not crafted thoughtfully and carefully! At first glance, introducing a monetary incentive for cobra skins seems like a good way to reduce the cobra population. However, he failed to account for the way this new incentive might change people's behaviors. By making cobra skins highly valuable, he inadvertently caused people to realize that breeding cobras was much safer, easier, and more lucrative than hunting them. Although his policy may have caused the change he wanted, in the beginning, he had no way of knowing what other sorts of behaviors this new policy might create or encourage. 
 
-
 ## Example 2: Standardized testing in US schools
 
-<img src='images/new_test.png' width="400">
+<img src="images/new_test.png" width="400">
 
 A more depressing real-world example of Goodhart's law in action is the prevalence of standardized testing in the American public school system. These tests were originally designed as a way to measure both individual student performance and overall teacher and school effectiveness.  However, school funding is tied directly to test scores.  This incentivizes schools to "teach to the test", spending a disproportionate amount of class time each year focusing on test preparation. By having incentives for schools to focus heavily on preparing students for these tests, the system has created ripple effects including reorientating student's focus on preparing for tests rather than other learning goals that might be more characteristic of real-world applications such as project orientated tasks. In this case, policymakers started out with a harmless, positive intention -- measure student and school performance -- but failing to account for Goodhart's law and offering strong incentives in relation to these metrics has degraded the usefulness of these test scores by altering behaviors.
-
 
 ## Why does this matter for Data Scientists?
 
